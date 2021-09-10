@@ -3,3 +3,71 @@
 *{
   font-family: 'Glory', sans-serif;
 }
+
+.menu-active{
+  font-weight: bold; 
+  border-bottom: 1px solid #565387;
+
+}
+
+/* .navbar a:hover{
+  color:#ebd936 !important ;
+} */
+.navbar {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+
+/* Circle */
+.navbar a {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.navbar a:after {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+.navbar a:hover:after {
+  animation: circle 1.5s ease-in forwards;
+}
+
+@keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: #eee;
+    border-radius: 100%;
+  }
+  100% {
+    background: #aaa;
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+}

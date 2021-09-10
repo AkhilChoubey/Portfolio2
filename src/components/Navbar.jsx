@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "41px", padding: '0'}}>
         <div className="container-fluid">
         <Router>
-           <Link to='/' className='navbar-brand' style={{marginRight: '35%',fontSize: '2.5rem'}}> PortFolio </Link>
+           <Link to='/' className='navbar-brand' style={{marginRight: '34%',fontSize: '2.5rem'}}> PortFolio </Link>
            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
