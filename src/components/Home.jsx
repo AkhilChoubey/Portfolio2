@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { BrowserRouter as Router } from 'react-router-dom';
 import bg from '../background/new.gif';
-import bg1 from '../background/new2.gif';
-import bg2 from '../background/new3.gif';
-import bg3 from '../background/new4.gif';
-import bg4 from '../background/new5.gif';
-import bg5 from '../background/new6.gif';
-import bg6 from '../background/new7.gif';
-import bg7 from '../background/new8.gif';
+// import bg1 from '../background/new2.gif';
+// import bg2 from '../background/new3.gif';
+// import bg3 from '../background/new4.gif';
+// import bg4 from '../background/new5.gif';
+// import bg5 from '../background/new6.gif';
+// import bg6 from '../background/new7.gif';
+//import bg7 from '../background/new8.gif';
 
 const Home = () => {
 
