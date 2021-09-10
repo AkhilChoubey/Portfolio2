@@ -6,11 +6,11 @@ const Navbar = () => {
     return <>
      <div className="container-fluid nav_bg">
         <div className="row">
-            <div className="col-10 " style={{width:"100%"}}>
+            <div className="col-10 " style={{width:"100%",position:'fixed',padding: '0'}}>
 
            
-        <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "41px", padding: '0'}}>
-        <div className="container-fluid">
+        <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "0px", padding: '0'}}>
+        <div className="container-fluid" style={{background: 'snow'}}>
         <Router>
            <Link to='/' className='navbar-brand' style={{marginRight: '34%',fontSize: '2.5rem'}}> PortFolio </Link>
            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

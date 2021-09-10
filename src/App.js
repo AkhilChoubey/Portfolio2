@@ -5,12 +5,14 @@ import "bootstrap/dist/js/bootstrap.bundle";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div>
      <Navbar />
      <Home />
+     <Contact />
     </div>
   );
 }
