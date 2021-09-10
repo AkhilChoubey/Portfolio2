@@ -13,14 +13,14 @@
 /* .navbar a:hover{
   color:#ebd936 !important ;
 } */
+
+/* Navbar */
 .navbar {
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
 }
 
-
-/* Circle */
 .navbar a {
   position: relative;
   overflow: hidden;
@@ -70,4 +70,61 @@
     margin: auto;
     border-radius: 0;
   }
+}
+
+/* Home Page */
+
+#header{
+  width: 100%;
+  height: 80vh;
+   /* margin-top: 70px;  */
+
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: wheat;
+}
+.titleHeader {
+  text-align: end;
+}
+
+#title{
+  width:100%;
+  text-align: center;
+}
+
+#title2{
+  width:47%;
+  text-align: end;
+}
+
+.hhh{
+  margin-left:auto !important;
+  margin-right: auto !important;
+  margin-top: 1%;
+}
+#header .brand-name{
+  color: #f37d10;
+}
+
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #f8f5f4;
+  border: 2px solid #f57e2f;
+  text-decoration: none;
+}
+
+
+#header .btn-get-started:hover{
+  background: #f87d2b;
+  color: #fff;
 }

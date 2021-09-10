@@ -1,11 +1,14 @@
 import React from 'react';
 import newbg from './profile.jpg';
+import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
 const Home = () => {
 
-return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${newbg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat"}} >
+return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${newbg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover'}} >
     
     {/* <h1> {props.location.state.details.first_name}</h1> */}
     <section id="header" className="d-flex align-items-center">
@@ -20,8 +23,10 @@ return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.
                </h2>
                 
                 <div className="mt-3">
+                <Router>
                     <Link to='/meal' className="btn-get-started ">MealMaker</Link>
                     <Link to='/healthy' className="btn-get-started " style={{marginLeft: "5%"}}>Healthy</Link>
+                </Router>
                 </div>
                 </div>
         </section>
