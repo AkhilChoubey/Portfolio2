@@ -17,7 +17,7 @@ import {GiBrain} from 'react-icons/gi';
 const Skills = () => {
 
     const options = {
-		size: 180,
+		size: 280,
 		minSize: 20,
 		gutter: 8,
 		provideProps: true,
