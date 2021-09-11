@@ -62,7 +62,7 @@ const Skills = () => {
         <DiMongodb className='icon' />
 		<h1>MongoDB</h1>
     </div>
-    <div className='child' style={{backgroundColor: 'rgba(0, 40, 152, 0.816)'}}>
+    <div className='child' style={{backgroundColor: 'rgba(0, 40, 152, 0.816)', color: 'white'}}>
         <GrReactjs className='icon' />
 		<h1>ReactJS</h1>
     </div>
