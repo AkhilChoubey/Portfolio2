@@ -7,7 +7,8 @@ import Typewriter from 'typewriter-effect';
 import { BrowserRouter as Router } from 'react-router-dom';
 import bg from '../background/new.gif';
 import { Navbar } from 'react-bootstrap';
-
+import Skills from './Skills';
+import Contact from './Contact';
 
 const Home = () => {
 
@@ -16,7 +17,8 @@ const Home = () => {
         Aos.init({duration: 2000});
     }, []);
 
-return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${bg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover',height: '32rem'}} >
+return <div>
+<div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${bg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover',height: '32rem'}} >
     
     {/* <Navbar /> */}
 
@@ -40,6 +42,9 @@ return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.
                 </div>
                 </div>
         </section>
+    </div>
+    <Skills />
+     <Contact />
     </div>
 }
 

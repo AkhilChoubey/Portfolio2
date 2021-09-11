@@ -14,10 +14,6 @@ function App() {
   return (
     <div>
      {/* <Navbar /> */}
-     
-     <Home />
-     <Skills />
-     <Contact />
      <Router>
         <Switch>
             <Route path='/' exact component={Home} />
