@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "0px", padding: '0'}}>
         <div className="container-fluid" style={colorChange?{background: 'black',color: 'white',transition: '2s all ease'}:{background: 'snow',transition: '2s all ease'}}>
         <Router>
-           <Link to='/' className='navbar-brand' style={colorChange?{color:'white',marginRight: '34%',fontSize: '2.5rem',transition: '2s all ease'}:{marginRight: '34%',fontSize: '2.5rem'}}> PortFolio </Link>
+           <Link to='/' className='navbar-brand' style={colorChange?{color:'white',marginRight: '34%',fontSize: '2.5rem',transition: '2s all ease'}:{marginRight: '34%',fontSize: '2.5rem',fontWeight:'bolder'}}> PortFolio </Link>
            <button className="navbar-toggler" style={colorChange?{background: 'white',transition: '2s all ease'}:{}}  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
