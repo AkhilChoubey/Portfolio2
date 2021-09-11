@@ -415,3 +415,8 @@ hr {
 .icon {
   font-size: 8rem;
 }
+
+.top-elements{
+  margin-top: 3rem;
+  width: 100%;
+}
