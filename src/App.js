@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import "./bootstrap.min.css";
 import Home from './components/Home';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Navbar style={{position: 'sticky', top: '0'}}/>
      
      <Home />
+     <Skills />
      <Contact />
     </div>
   );

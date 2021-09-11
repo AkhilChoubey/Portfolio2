@@ -392,3 +392,19 @@ hr {
     
   }
 }
+
+/* Skills CSS */
+/* myComponent.css */
+
+.myBubbleUI {
+	width: 100%;
+	/* max-width: 1000px; */
+	height: 500px;
+	border-radius: 50px;
+}
+
+.child {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}

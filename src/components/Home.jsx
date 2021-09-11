@@ -21,7 +21,7 @@ return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.
     {/* <Navbar /> */}
 
     {/* <h1> {props.location.state.details.first_name}</h1> */}
-    <section id="header" className="d-flex align-items-center" style={{marginTop: '5.1%',paddingTop: '75px'}} data-aos='zoom-in'  >
+    <section id="header" className="d-flex align-items-center" style={{paddingTop: '75px'}} data-aos='zoom-in'  >
     <div id="title" className="titleHeader col-md-6 pt-5 pt-lg-0 order-2 order-lg- d-flex justify-content-center flex-column" >
                 <h1>Hello, I am Akhil Kr Choubey <strong className="brand-name"> 
                 <Typewriter options={{  strings: ["I am a Web Developer", "I am a Programmer", "I am a Debugger"],  autoStart: true,  loop: true,changeDelay:2 }}/>
