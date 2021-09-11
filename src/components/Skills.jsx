@@ -13,7 +13,7 @@ import {SiCplusplus} from 'react-icons/si';
 import {BsBootstrap} from 'react-icons/bs';
 import {SiRedux} from 'react-icons/si';
 import {GiBrain} from 'react-icons/gi';
-//import {ImHtmlFive} from 'react-icons/im';
+import {FaGitAlt} from 'react-icons/fa';
 const Skills = () => {
 
     const options = {
@@ -85,6 +85,10 @@ const Skills = () => {
     <div className='child' style={{backgroundColor: 'rgba(237, 28, 36, 0.816)'}}>
         <GiBrain className='icon' />
         <h1>Marketing</h1>
+    </div>
+    <div className='child' style={{backgroundColor: 'rgba(237, 28, 36, 0.816)'}}>
+        <FaGitAlt className='icon' />
+        <h1>Git</h1>
     </div>
 	</BubbleUI>
     </>

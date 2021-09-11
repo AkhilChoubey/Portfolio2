@@ -11,7 +11,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div>
-     <Navbar style={{position: 'sticky', top: '0'}}/>
+     <Navbar />
      
      <Home />
      <Skills />
