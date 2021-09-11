@@ -35,55 +35,55 @@ const Skills = () => {
     <h1> Skills </h1>
     <BubbleUI options={options} className="myBubbleUI">
     <div className='child' style={{backgroundColor: '#ed1c24d0'}}>
-        <ImHtmlFive />
+        <ImHtmlFive className='icon' />
 	    <h1>HTML</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 143, 254, 0.816)'}}>
-        <SiCss3 />
+        <SiCss3 className='icon' />
 		<h1>CSS</h1>
     </div>
-    <div className='child' style={{backgroundColor: 'rgba(0, 0, 58, 0.816)'}}>
-        <SiJavascript />
+    <div className='child' style={{backgroundColor: 'rgba(0, 0, 58, 0.816)',color: 'white'}}>
+        <SiJavascript className='icon' />
 		<h1>JavaScript</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(161, 0, 255, 0.816)'}}>
-        <SiJquery />
+        <SiJquery className='icon' />
 		<h1>JQuery</h1>
     </div>
-    <div className='child' style={{backgroundColor: 'rgba(0, 0, 0, 0.816)'}}>
-        <FaNodeJs />
+    <div className='child' style={{backgroundColor: 'rgba(0, 0, 0, 0.816)', color: 'white'}}>
+        <FaNodeJs className='icon' />
 		<h1>NodeJS</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(237, 28, 36, 0.816)'}}>
-        <FaNodeJs />
+        <FaNodeJs className='icon' />
 		<h1>ExpressJS</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 149, 57, 0.816)'}}>
-        <DiMongodb />
+        <DiMongodb className='icon' />
 		<h1>MongoDB</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 40, 152, 0.816)'}}>
-        <GrReactjs />
+        <GrReactjs className='icon' />
 		<h1>ReactJS</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(71, 67, 62, 0.816)'}}>
-        <DiNodejsSmall />
+        <DiNodejsSmall className='icon' />
         <h1>EJS</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 134, 118, 0.816)'}}>
-        <SiCplusplus />
+        <SiCplusplus className='icon' />
         <h1>C++</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(255, 102, 30, 0.816)'}}>
-        <BsBootstrap />
+        <BsBootstrap className='icon' />
         <h1>Bootstrap</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 66, 106, 0.816)'}}>
-        <SiRedux />
+        <SiRedux className='icon' />
         <h1>Redux</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(237, 28, 36, 0.816)'}}>
-        <GiBrain />
+        <GiBrain className='icon' />
         <h1>Marketing</h1>
     </div>
 	</BubbleUI>
