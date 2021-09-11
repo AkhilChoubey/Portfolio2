@@ -10,7 +10,7 @@ import {
   import AnimatedProgressProvider from "./AnimatedProgressProvider";
  
 const Grades = (props) => {
-return <div style={{width: "30%", height:'5rem', background: 'white',display:'block'}}>
+return <div style={{width: "95%", height:'11rem', background: 'white',display:'block'}}>
 {/* <Example label="Fully controlled text animation using react-move"> */}
       <AnimatedProgressProvider
         valueStart={0}

@@ -16,7 +16,9 @@ const Card= (props)=>{
                 <div className="card" style={{ boxShadow: "0 8px 8px -4px lightblue"}} data-aos='fade-up'>
                 <div className="card-body">
                     {/* <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} /> */}
+                    <div style={{margin: '0% 18% 10% 24%'}}>
                     <Grades value={props.value} />
+                    </div>
                             <h1 className="card-title font-weight-bold" style={{textAlign: 'center',fontWeight:'bolder'}}>{props.title}</h1>
                             <h4 className="card-text" style={{textAlign: 'center'}}>Time period : {props.time}</h4>
                             <h5 className="card-text" style={{textAlign: 'center'}}>Intitute : {props.institute}</h5>

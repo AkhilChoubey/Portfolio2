@@ -5,7 +5,7 @@ import Card from './Card';
 const Academics = () => {
     return <>
     <h1 style={{textAlign: 'center', fontWeight: 'bolder', fontSize: '4rem'}}>Academics</h1>
-        <div style={{fontWeight:'bolder', minHeight :'20rem'}}>
+        <div style={{fontWeight:'bolder', minHeight :'30rem'}}>
         <div className="container-fluid">
             <div className="row" >
                 <div className="col-10 top-elements" style={{marginTop: '3rem', width: '100%'}} >
