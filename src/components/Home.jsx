@@ -10,6 +10,7 @@ import { Navbar } from 'react-bootstrap';
 import Skills from './Skills';
 import Contact from './Contact';
 import Grades from './Grades';
+import Academics from './Academics';
 
 const Home = () => {
 
@@ -45,8 +46,9 @@ return <div>
         </section>
     </div>
     <Skills />
-    <Grades />
-     <Contact />
+    {/* <Grades /> */}
+    <Academics />
+    <Contact />
     </div>
 }
 

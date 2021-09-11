@@ -9,12 +9,12 @@ import {
   import { easeQuadInOut } from "d3-ease";
   import AnimatedProgressProvider from "./AnimatedProgressProvider";
  
-const Grades = () => {
+const Grades = (props) => {
 return <div style={{width: "30%", height:'5rem', background: 'white',display:'block'}}>
 {/* <Example label="Fully controlled text animation using react-move"> */}
       <AnimatedProgressProvider
         valueStart={0}
-        valueEnd={90}
+        valueEnd={props.value}
         duration={1.4}
         easingFunction={easeQuadInOut}
         
