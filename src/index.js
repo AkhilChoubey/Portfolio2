@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route , Link} from 'react-router-dom';
-
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from './components/Home';
-import Contact from './components/Contact';
-import Skills from './components/Skills';
 
 ReactDOM.render(
   <React.StrictMode>
