@@ -107,7 +107,7 @@
   margin-top: 1%;
 }
 #header .brand-name{
-  color: #3c89e0;
+  color: #f73b3b;
 }
 
 #header .btn-get-started{
@@ -119,13 +119,13 @@
   border-radius: 10px;
   transition: 0.5s;
   color: #f8f5f4;
-  border: 2px solid #3c89e0;
+  border: 2px solid #f73b3b;
   text-decoration: none;
 }
 
 
 #header .btn-get-started:hover{
-  background: #3c89e0;
+  background: #f73b3b;
   color: #fff;
 }
 /* Contact CSS */
