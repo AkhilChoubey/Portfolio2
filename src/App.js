@@ -9,12 +9,15 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
 import { withRouter } from 'react-router';
-
+import { createBrowserHistory } from 'history';
 function App() {
+
   return (
     <div>
      {/* <Navbar /> */}
      <Router>
+     <div>
+     <Navbar style={{position: 'sticky', top: '0'}} />
         <Switch>
             <Route path='/' exact component={withRouter(Home)} />
             <Route path='/certificate' component={withRouter(Home)} />
@@ -22,6 +25,7 @@ function App() {
             <Route path='/skills' component={withRouter(Skills)} />
             <Route path='/contact' component={withRouter(Contact)} />
         </Switch>
+        </div>
      </Router>
     </div>
   );

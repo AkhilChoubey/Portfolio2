@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
+import Switch from 'react-bootstrap/esm/Switch';
 import {Link} from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-
+import {  Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 const Navbar = () => {
 
     const [colorChange, setColorChange] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNavbarColor);
 
     return <>
-    
+    {/* <Router history={createBrowserHistory()}> */}
      <div className="container-fluid nav_bg">
         <div className="row">
             <div className="col-10 " style={{width:"100%",padding: '0'}} >
@@ -26,7 +27,8 @@ const Navbar = () => {
            
         <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "0px", padding: '0'}}>
         <div className="container-fluid" style={colorChange?{background: 'black',color: 'white',transition: '2s all ease'}:{background: 'snow',transition: '2s all ease'}}>
-        <Router>
+    
+        
            <Link to='/' className='navbar-brand' style={colorChange?{color:'white',marginRight: '34%',fontSize: '2.5rem',transition: '2s all ease'}:{marginRight: '34%',fontSize: '2.5rem',fontWeight:'bolder'}}> PortFolio </Link>
            <button className="navbar-toggler" style={colorChange?{background: 'white',transition: '2s all ease'}:{}}  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -41,13 +43,14 @@ const Navbar = () => {
             </ul>
             </div>
             {/* <span className="slide"></span> */}
-            </Router>
+            
+            
             </div>
         </nav>
         </div>
         </div>
     </div>
-        
+    
     </>
 }
 

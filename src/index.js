@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-  <Navbar style={{position: 'sticky', top: '0'}} />
+  
   
     <App />
   </React.StrictMode>,
