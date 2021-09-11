@@ -9,6 +9,7 @@ import bg from '../background/new.gif';
 import { Navbar } from 'react-bootstrap';
 import Skills from './Skills';
 import Contact from './Contact';
+import Grades from './Grades';
 
 const Home = () => {
 
@@ -44,6 +45,7 @@ return <div>
         </section>
     </div>
     <Skills />
+    <Grades />
      <Contact />
     </div>
 }
