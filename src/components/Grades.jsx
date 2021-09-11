@@ -8,16 +8,16 @@ import {
   // Animation
   import { easeQuadInOut } from "d3-ease";
   import AnimatedProgressProvider from "./AnimatedProgressProvider";
-  import ChangingProgressProvider from "./ChangingProgressProvider";
-
+ 
 const Grades = () => {
-return <Example label="Fully controlled text animation using react-move">
+return <div style={{width: "30%", height:'5rem', background: 'white',display:'block'}}>
+{/* <Example label="Fully controlled text animation using react-move"> */}
       <AnimatedProgressProvider
         valueStart={0}
-        valueEnd={66}
+        valueEnd={90}
         duration={1.4}
         easingFunction={easeQuadInOut}
-        repeat
+        
       >
         {value => {
           const roundedValue = Math.round(value);
@@ -32,8 +32,8 @@ return <Example label="Fully controlled text animation using react-move">
           );
         }}
       </AnimatedProgressProvider>
-    </Example>
-
+    {/* </Example> */}
+</div>
 }
 
 export default Grades;
