@@ -17,9 +17,9 @@ const Card= (props)=>{
                 <div className="card-body">
                     {/* <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} /> */}
                     <Grades value={props.value} />
-                            <h2 className="card-title font-weight-bold" style={{textAlign: 'end'}}>{props.title}</h2>
-                            <p className="card-text">Time period : {props.time} minutes</p>
-                            <p className="card-text">Intitute : {props.institute} kcal</p>
+                            <h1 className="card-title font-weight-bold" style={{textAlign: 'center',fontWeight:'bolder'}}>{props.title}</h1>
+                            <h3 className="card-text" style={{textAlign: 'center'}}>Time period : {props.time} minutes</h3>
+                            <h3 className="card-text" style={{textAlign: 'center'}}>Intitute : {props.institute} kcal</h3>
                             {/* <p className="card-text"> : {props.fat} g</p> */}
                        </div>
                 </div>
