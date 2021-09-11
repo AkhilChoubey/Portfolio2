@@ -18,9 +18,10 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNavbarColor);
 
     return <>
+    
      <div className="container-fluid nav_bg">
         <div className="row">
-            <div className="col-10 " style={{width:"100%",position:'fixed',padding: '0'}}>
+            <div className="col-10 " style={{width:"100%",position:'sticky',padding: '0',top: '0'}} >
 
            
         <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "0px", padding: '0'}}>

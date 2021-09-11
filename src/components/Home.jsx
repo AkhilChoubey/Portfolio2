@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
 import { BrowserRouter as Router } from 'react-router-dom';
 import bg from '../background/new.gif';
+import { Navbar } from 'react-bootstrap';
 
 
 const Home = () => {
@@ -17,6 +18,8 @@ const Home = () => {
 
 return <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${bg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover',height: '32rem'}} >
     
+    {/* <Navbar /> */}
+
     {/* <h1> {props.location.state.details.first_name}</h1> */}
     <section id="header" className="d-flex align-items-center" style={{marginTop: '5.1%',paddingTop: '75px'}} data-aos='zoom-in'  >
     <div id="title" className="titleHeader col-md-6 pt-5 pt-lg-0 order-2 order-lg- d-flex justify-content-center flex-column" >
