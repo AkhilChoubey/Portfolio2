@@ -73,6 +73,13 @@
 }
 
 /* Home Page */
+.home {
+  background : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./background/new.gif');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+    background-size: cover;
+  height: 32rem;
+}
 
 #header{
   width: 100%;
@@ -127,6 +134,12 @@
 #header .btn-get-started:hover{
   background: #f73b3b;
   color: #fff;
+}
+
+@media (max-width:600px) {
+  .home{
+    height: 35rem;
+  }
 }
 /* Contact CSS */
 
@@ -371,7 +384,9 @@ hr {
     height: 55px;
     line-height: 55px;
   }
-  
+  .home{
+    min-height: 50rem;
+  } 
 }
 
 @media screen and (max-width: 410px) {
@@ -391,6 +406,7 @@ hr {
     margin-left:5%;
     
   }
+ 
 }
 
 /* Skills CSS */

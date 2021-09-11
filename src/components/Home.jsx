@@ -38,10 +38,10 @@ return <div>
                </h2>
                  */}
                 <div className="mt-3">
-                <Router>
-                    <Link to='/meal' className="btn-get-started ">Certificates</Link>
-                    <Link to='/healthy' className="btn-get-started " style={{marginLeft: "5%"}}>Projects</Link>
-                </Router>
+            
+                    <Link to='/certificates' className="btn-get-started ">Certificates</Link>
+                    <Link to='/projects' className="btn-get-started " style={{marginLeft: "5%"}}>Projects</Link>
+            
                 </div>
                 </div>
         </section>
