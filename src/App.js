@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
-
+import { withRouter } from 'react-router';
 
 function App() {
   return (
@@ -16,11 +16,11 @@ function App() {
      {/* <Navbar /> */}
      <Router>
         <Switch>
-            <Route path='/' exact component={Home} />
-            <Route path='/certificate' exact component={Home} />
-            <Route path='/projects' exact component={Home} />
-            <Route path='/skills' exact component={Skills} />
-            <Route path='/contact' exact component={Contact} />
+            <Route path='/' exact component={withRouter(Home)} />
+            <Route path='/certificate' component={withRouter(Home)} />
+            <Route path='/projects' component={withRouter(Home)} />
+            <Route path='/skills' component={withRouter(Skills)} />
+            <Route path='/contact' component={withRouter(Contact)} />
         </Switch>
      </Router>
     </div>

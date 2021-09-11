@@ -11,6 +11,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import Grades from './Grades';
 import Academics from './Academics';
+import { withRouter } from 'react-router';
 
 const Home = () => {
 
@@ -52,4 +53,4 @@ return <div>
     </div>
 }
 
-export default Home;
+export default withRouter(Home);

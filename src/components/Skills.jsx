@@ -1,6 +1,7 @@
 import React from 'react';
 import BubbleUI from "react-bubble-ui";
 import "react-bubble-ui/dist/index.css";
+import { withRouter } from 'react-router';
 import {ImHtmlFive} from 'react-icons/im';
 import {SiCss3} from 'react-icons/si';
 import {SiJavascript} from 'react-icons/si';
@@ -94,4 +95,4 @@ const Skills = () => {
     </>
 }
 
-export default Skills;
+export default withRouter(Skills);

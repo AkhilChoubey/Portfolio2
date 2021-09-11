@@ -13,7 +13,8 @@ import {AiFillFacebook} from "react-icons/ai";
 import {AiOutlineTwitter} from "react-icons/ai";
 // import conBg from './lapy2.jpg';
 import conBg from './connew.jpg';
-// import conBg from './connew2.jpg'; 
+// import conBg from './connew2.jpg';
+import { withRouter } from 'react-router'; 
 
 
 const Contact = ()=>{
@@ -153,4 +154,4 @@ const Contact = ()=>{
     </>
 }
 
-export default Contact;
+export default withRouter(Contact);
