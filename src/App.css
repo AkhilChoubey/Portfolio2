@@ -101,8 +101,8 @@ background-image:  radial-gradient(#74747e 0.5px, transparent 0.5px), radial-gra
 /* background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc; */
 
 background: 
-    radial-gradient(rgb(199, 242, 243) 3px, transparent 4px),
-    radial-gradient(rgb(199, 242, 243) 3px, transparent 4px),
+    radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
+    radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
     linear-gradient(#fff 4px, transparent 0),
     linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
     linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
@@ -156,8 +156,9 @@ background:
   display: inline-block;
   padding: 10px 30px;
   border-radius: 10px;
+  font-weight: 700;
   transition: 0.5s;
-  color: #0a0a0a;
+  color: #000000;
   border: 2px solid #f73b3b;
   text-decoration: none;
 }

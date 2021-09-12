@@ -50,7 +50,7 @@ return <div className='home'>
                  */}
                 <div className="mt-3">
             
-                    <Link to='/certificates' className="btn-get-started ">Certificates</Link>
+                    <Link to='/certificates' className="btn-get-started btn btn-danger" style={{color:'white'}}>Certificates</Link>
                     <Link to='/projects' className="btn-get-started " style={{marginLeft: "5%"}}>Projects</Link>
             
                 </div>
