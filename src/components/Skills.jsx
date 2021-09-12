@@ -33,7 +33,7 @@ const Skills = () => {
 	}
 
     return <>
-    <h1 style={{textAlign: 'center', fontWeight: 'bolder', fontSize: '4rem'}}> Skills </h1>
+    <h1 className='component-heading' > Skills </h1>
     <BubbleUI options={options} className="myBubbleUI">
     <div className='child' style={{backgroundColor: '#ed1c24d0'}}>
         <ImHtmlFive className='icon' />

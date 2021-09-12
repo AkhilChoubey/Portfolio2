@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Academics = () => {
     return <>
-    <h1 style={{textAlign: 'center', fontWeight: 'bolder', fontSize: '4rem'}}>Academics</h1>
+    <h1 className='component-heading' >Academics</h1>
         <div style={{fontWeight:'bolder', minHeight :'30rem'}}>
         <div className="container-fluid">
             <div className="row" >

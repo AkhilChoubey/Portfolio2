@@ -163,6 +163,13 @@ background:
   text-decoration: none;
 }
 
+/* Skills and Academics component heading style */
+.component-heading{
+  font-family: 'Lobster';
+  text-align: center;
+  font-weight: 400;
+  font-size: 4rem;
+}
 
 #header .btn-get-started:hover{
   background: #f73b3b;
