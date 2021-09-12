@@ -9,6 +9,8 @@
     "aos": "^2.3.4",
     "d3-ease": "^3.0.1",
     "react": "^17.0.2",
+    "react-animated-cursor": "^2.2.0",
+    "react-animated-text": "^0.1.4",
     "react-bootstrap": "^1.6.3",
     "react-bubble-ui": "^1.1.1",
     "react-circular-progressbar": "^2.0.4",

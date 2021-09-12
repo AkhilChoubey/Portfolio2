@@ -20,8 +20,9 @@ const Home = () => {
         Aos.init({duration: 2000});
     }, []);
 
-return <div>
-<div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${bg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover',height: '32rem'}} >
+return <div className='home'>
+<div>
+{/* <div style ={{ background : `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${bg})`, backgroundAttachment: "fixed",backgroundRepeat: "no-repeat", backgroundSize: 'cover',height: '32rem'}} > */}
     
     {/* <Navbar /> */}
 
@@ -51,6 +52,7 @@ return <div>
     <Academics />
     <Contact />
     </div>
+    
 }
 
 export default withRouter(Home);

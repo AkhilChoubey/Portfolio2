@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@221&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 *{
   font-family: 'Glory', sans-serif;
 }
@@ -74,7 +74,8 @@
 
 /* Home Page */
 .home {
-  background : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./background/new.gif');
+  /* background : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./background/new.gif'); */
+  background-color: #E7F5FE;
    background-attachment: fixed;
    background-repeat: no-repeat;
     background-size: cover;
@@ -91,8 +92,9 @@
 #header h1{
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
-  color: wheat;
+  font-weight: 400;
+  font-family: 'Lobster';
+  color: rgb(26, 23, 18);
 }
 .titleHeader {
   text-align: end;
@@ -125,7 +127,7 @@
   padding: 10px 30px;
   border-radius: 10px;
   transition: 0.5s;
-  color: #f8f5f4;
+  color: #0a0a0a;
   border: 2px solid #f73b3b;
   text-decoration: none;
 }
@@ -133,7 +135,7 @@
 
 #header .btn-get-started:hover{
   background: #f73b3b;
-  color: #fff;
+  color: rgb(241, 241, 241);
 }
 
 @media (max-width:600px) {
