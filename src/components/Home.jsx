@@ -35,7 +35,7 @@ return <div className='home'>
                 <h1>
                 <div class='title-wave'>
                 <Wave
-                    text="Hello, I am Akhil Kr Choubey"
+                    text="Hello, I am Akhil Choubey!"
                     effect="stretch"
                     effectChange={2.0}/>
                 </div>
