@@ -3,6 +3,12 @@
 *{
   font-family: 'Glory', sans-serif;
 }
+/* 
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  radial-gradient(#73d2dd 0.5px, transparent 0.5px), radial-gradient(#73d2dd 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px; */
 
 .menu-active{
   font-weight: bold; 
@@ -75,11 +81,35 @@
 /* Home Page */
 .home {
   /* background : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./background/new.gif'); */
-  background-color: #E7F5FE;
+  /* background-color: #E7F5FE; */
    background-attachment: fixed;
    background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: #E7F5FE; */
+    
+    /* background-image:  radial-gradient(#74747e 0.5px, transparent 0.5px), radial-gradient(#74747e 0.5px, #E7F5FE 0.5px); */
+    /* background-size: 20px 20px; */
+    /* background-position: 0 0,10px 10px; */
+    
   height: 32rem;
+
+  /* background-color: #E7F5FE;
+
+background-image:  radial-gradient(#74747e 0.5px, transparent 0.5px), radial-gradient(#74747e 0.5px, #E7F5FE 0.5px); */
+
+/* background: linear-gradient(90deg, #E7F5FE 21px, transparent 1%) center, linear-gradient(#E7F5FE 21px, transparent 1%) center, #a799cc; */
+/* background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc; */
+
+background: 
+    radial-gradient(rgb(199, 242, 243) 3px, transparent 4px),
+    radial-gradient(rgb(199, 242, 243) 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #E7F5FE;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
 }
 
 #header{
