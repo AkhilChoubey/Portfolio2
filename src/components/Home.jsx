@@ -12,6 +12,7 @@ import Contact from './Contact';
 import Grades from './Grades';
 import Academics from './Academics';
 import { withRouter } from 'react-router';
+import { Wave} from 'react-animated-text';
 
 const Home = () => {
 
@@ -29,7 +30,16 @@ return <div className='home'>
     {/* <h1> {props.location.state.details.first_name}</h1> */}
     <section id="header" className="d-flex align-items-center" style={{paddingTop: '75px'}} data-aos='zoom-in'  >
     <div id="title" className="titleHeader col-md-6 pt-5 pt-lg-0 order-2 order-lg- d-flex justify-content-center flex-column" >
-                <h1>Hello, I am Akhil Kr Choubey <strong className="brand-name"> 
+              
+
+                <h1>
+                <div class='title-wave'>
+                <Wave
+                    text="Hello, I am Akhil Kr Choubey"
+                    effect="stretch"
+                    effectChange={2.0}/>
+                </div>
+                 <strong className="brand-name"> 
                 <Typewriter options={{  strings: ["I am a Web Developer", "I am a Programmer", "I am a Debugger"],  autoStart: true,  loop: true,changeDelay:2 }}/>
 
               </strong>
