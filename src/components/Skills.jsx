@@ -32,9 +32,11 @@ const Skills = () => {
 		gravitation: 5
 	}
 
+
+  
     return <>
     <h1 className='component-heading' > Skills </h1>
-    <BubbleUI options={options} className="myBubbleUI">
+    <BubbleUI options={options} className="myBubbleUI" >
     <div className='child' style={{backgroundColor: '#ed1c24d0'}}>
         <ImHtmlFive className='icon' />
 	    <h1>HTML</h1>
