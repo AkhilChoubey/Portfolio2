@@ -33,7 +33,7 @@ return <div className='home'>
               
 
                 <h1>
-                <div class='title-wave'>
+                <div className='title-wave'>
                 <Wave
                     text="Hello, I am Akhil Choubey!"
                     effect="stretch"
