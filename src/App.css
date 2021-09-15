@@ -184,6 +184,13 @@ background:
   .titleHeader {
     margin-left: 0;
   }
+  #header h1 .title-wave{
+    margin: 0 0 10px 0;
+    font-size: 47px;
+    font-weight: 700;
+    font-family: 'Lobster';
+    color: rgb(26, 23, 18);
+  }
 }
 /* Contact CSS */
 
