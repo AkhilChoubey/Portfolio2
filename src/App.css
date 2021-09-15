@@ -128,6 +128,7 @@ background:
 }
 .titleHeader {
   text-align: end;
+  margin-left: 26%;
 }
 
 #title{
@@ -179,6 +180,9 @@ background:
 @media (max-width:600px) {
   .home{
     height: 35rem;
+  }
+  .titleHeader {
+    margin-left: 0;
   }
 }
 /* Contact CSS */
