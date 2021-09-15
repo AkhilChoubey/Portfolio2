@@ -129,13 +129,13 @@ const Contact = ()=>{
         <ul className="social-media-list" data-aos='zoom-in'>
           <li onClick={linkedin}>
           {/* <a className="contact-icon"> */}
-            <FaLinkedin className="contact-icon" style={{fontSize: "1.5rem"}} className="fa contact-icon "  />
+            <FaLinkedin style={{fontSize: "1.5rem"}} className="fa contact-icon "  />
           </li>
           <li onClick={github}>
-            <AiFillGithub className="contact-icon" style={{fontSize: "1.5rem"}} className="fa contact-icon"/>
+            <AiFillGithub style={{fontSize: "1.5rem"}} className="fa contact-icon"/>
           </li>
           <li onClick={facebook}>
-            <AiFillFacebook className="contact-icon" style={{fontSize: "1.5rem"}} className="fa contact-icon" />
+            <AiFillFacebook style={{fontSize: "1.5rem"}} className="fa contact-icon" />
           </li>
           <li onClick={twitter}>
             <AiOutlineTwitter style={{fontSize: "1.5rem"}} className="fa contact-icon" />
