@@ -1,15 +1,13 @@
 import React,{useEffect} from 'react';
-import newbg from './profile.jpg';
+
 import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
-import { BrowserRouter as Router } from 'react-router-dom';
-import bg from '../background/new.gif';
-import { Navbar } from 'react-bootstrap';
+
 import Skills from './Skills';
 import Contact from './Contact';
-import Grades from './Grades';
+
 import Academics from './Academics';
 import { withRouter } from 'react-router';
 import { Wave} from 'react-animated-text';

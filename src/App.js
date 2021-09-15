@@ -10,7 +10,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
 import { withRouter } from 'react-router';
-import { createBrowserHistory } from 'history';
+
 import AnimatedCursor from "react-animated-cursor";
 function App() {
 
