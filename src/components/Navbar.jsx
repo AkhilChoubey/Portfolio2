@@ -34,7 +34,7 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className='navbar-nav ml-auto mb-2 mb-lg-0'>
+            <ul className='navbar-nav mb-2 mb-lg-0'>
                 <li className='nav-item menuitem' style={{marginRight: "18%", fontSize: '2rem'}}><Link to='/projects' activeclassname="menu-active" style={ colorChange?{color: 'white'}:{}} className="nav-link">Projects</Link><span></span></li>
                 <li className='nav-item menuitem' style={{marginRight: "18%", fontSize: '2rem'}}><Link to='/certificates' activeclassname="menu-active" style={ colorChange?{color: 'white'}:{}} className="nav-link">Certificates</Link><span></span></li>
                 <li className='nav-item menuitem' style={{marginRight: "18%", fontSize: '2rem'}}><Link to='/skills' style={ colorChange?{color: 'white'}:{}} activeclassname="menu-active" className="nav-link">Skills</Link><span></span></li>
