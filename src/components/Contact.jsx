@@ -128,17 +128,24 @@ const Contact = ()=>{
             <HorizontalLine />
         <ul className="social-media-list" data-aos='zoom-in'>
           <li onClick={linkedin}>
-          {/* <a className="contact-icon"> */}
+          <div className="contact-icon"> 
             <FaLinkedin style={{fontSize: "1.5rem"}} className="fa  "  />
+          </div>
           </li>
           <li onClick={github}>
+          <div className="contact-icon"> 
             <AiFillGithub style={{fontSize: "1.5rem"}} className="fa "/>
+            </div>
           </li>
           <li onClick={facebook}>
+          <div className="contact-icon"> 
             <AiFillFacebook style={{fontSize: "1.5rem"}} className="fa " />
+            </div>
           </li>
           <li onClick={twitter}>
+          <div className="contact-icon"> 
             <AiOutlineTwitter style={{fontSize: "1.5rem"}} className="fa S" />
+            </div>
           </li>       
         </ul>
         <hr />
