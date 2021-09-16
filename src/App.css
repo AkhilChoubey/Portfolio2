@@ -50,6 +50,9 @@ background-position: 0 0,10px 10px; */
 .navbar a:hover:after {
   animation: circle 1.5s ease-in forwards;
 }
+.navbar-brand{
+  font-family: 'Lobster';
+}
 
 @keyframes circle {
   0% {
