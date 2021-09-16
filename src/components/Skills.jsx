@@ -15,6 +15,7 @@ import {BsBootstrap} from 'react-icons/bs';
 import {SiRedux} from 'react-icons/si';
 import {GiBrain} from 'react-icons/gi';
 import {FaGitAlt} from 'react-icons/fa';
+import {GrMysql} from 'react-icons/gr';
 const Skills = () => {
 
     const options = {
@@ -64,6 +65,10 @@ const Skills = () => {
     <div className='child' style={{backgroundColor: 'rgba(0, 149, 57, 0.816)'}}>
         <DiMongodb className='icon' />
 		<h1>MongoDB</h1>
+    </div>
+    <div className='child' style={{backgroundColor: 'rgba(237, 28, 36, 0.816)'}}>
+        <GrMysql className='icon' />
+        <h1>MySQL</h1>
     </div>
     <div className='child' style={{backgroundColor: 'rgba(0, 40, 152, 0.816)', color: 'white'}}>
         <GrReactjs className='icon' />
