@@ -12,6 +12,7 @@ import Skills from './components/Skills';
 import { withRouter } from 'react-router';
 
 import AnimatedCursor from "react-animated-cursor";
+import Certificates from './components/Certificates';
 function App() {
 
   return (
@@ -32,7 +33,7 @@ function App() {
      <Navbar style={{position: 'sticky', top: '0'}} />
         <Switch>
             <Route path='/' exact component={withRouter(Home)} />
-            <Route path='/certificate' component={withRouter(Home)} />
+            <Route path='/certificate' component={withRouter(Certificates)} />
             <Route path='/projects' component={withRouter(Home)} />
             <Route path='/skills' component={withRouter(Skills)} />
             <Route path='/contact' component={withRouter(Contact)} />
