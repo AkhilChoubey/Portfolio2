@@ -33,7 +33,7 @@ function App() {
      <Navbar style={{position: 'sticky', top: '0'}} />
         <Switch>
             <Route path='/' exact component={withRouter(Home)} />
-            <Route path='/certificate' component={withRouter(Certificates)} />
+            <Route path='/certificates' component={withRouter(Certificates)} />
             <Route path='/projects' component={withRouter(Home)} />
             <Route path='/skills' component={withRouter(Skills)} />
             <Route path='/contact' component={withRouter(Contact)} />
