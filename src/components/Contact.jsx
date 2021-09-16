@@ -128,24 +128,24 @@ const Contact = ()=>{
             <HorizontalLine />
         <ul className="social-media-list" data-aos='zoom-in'>
           <li onClick={linkedin}>
-          <div className="contact-icon"> 
+          <a href="https://www.linkedin.com/in/akhil-choubey-376887192" className="contact-icon"> 
             <FaLinkedin style={{fontSize: "1.5rem"}} className="fa  "  />
-          </div>
+          </a>
           </li>
           <li onClick={github}>
-          <div className="contact-icon"> 
+          <a href="https://github.com/AkhilChoubey" className="contact-icon"> 
             <AiFillGithub style={{fontSize: "1.5rem"}} className="fa "/>
-            </div>
+            </a>
           </li>
           <li onClick={facebook}>
-          <div className="contact-icon"> 
+          <a href="https://www.facebook.com/profile.php?id=100009258792168" className="contact-icon"> 
             <AiFillFacebook style={{fontSize: "1.5rem"}} className="fa " />
-            </div>
+            </a>
           </li>
           <li onClick={twitter}>
-          <div className="contact-icon"> 
+          <a href="https://twitter.com/AkhilKrChoubey1?s=08" className="contact-icon"> 
             <AiOutlineTwitter style={{fontSize: "1.5rem"}} className="fa S" />
-            </div>
+            </a>
           </li>       
         </ul>
         <hr />
