@@ -74,27 +74,12 @@
 
 /* Home Page */
 .home {
-  /* background : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./background/new.gif'); */
-  /* background-color: #E7F5FE; */
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: #E7F5FE; */
-    
-    /* background-image:  radial-gradient(#74747e 0.5px, transparent 0.5px), radial-gradient(#74747e 0.5px, #E7F5FE 0.5px); */
-    /* background-size: 20px 20px; */
-    /* background-position: 0 0,10px 10px; */
-    
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   height: 32rem;
-
-  /* background-color: #E7F5FE;
-
-background-image:  radial-gradient(#74747e 0.5px, transparent 0.5px), radial-gradient(#74747e 0.5px, #E7F5FE 0.5px); */
-
-/* background: linear-gradient(90deg, #E7F5FE 21px, transparent 1%) center, linear-gradient(#E7F5FE 21px, transparent 1%) center, #a799cc; */
-/* background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc; */
-
-background: 
+  background: 
     radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
     radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
     linear-gradient(#fff 4px, transparent 0),
