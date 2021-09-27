@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import swal from 'sweetalert';
 import {ImLocation} from "react-icons/im";
 import {ImPhone} from "react-icons/im";
-import {MdEmail} from "react-icons/md";
+// import {MdEmail} from "react-icons/md";
 import {RiSendPlaneFill} from "react-icons/ri";
 import {FaLinkedin} from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai";
