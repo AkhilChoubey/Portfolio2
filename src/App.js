@@ -31,7 +31,9 @@ function App() {
       innerScale={0.9}
       outerScale={10}
     />
-     <Navbar style={{position: 'sticky', top: '0'}} />
+    <div style={{width:'100%',position: 'sticky', top: '0',zIndex: '100'}}>
+     <Navbar />
+     </div>
         <Switch>
             <Route path='/' exact component={withRouter(Home)} />
             <Route path='/certificates' component={withRouter(Certificates)} />
