@@ -102,9 +102,7 @@ const Contact = ()=>{
       <textarea className="form-control" rows="10" onChange={handleMessage} placeholder="MESSAGE" name="message" style={{marginBottom : '10px'}} required data-aos='fade-down'></textarea>
       
       <button className="btn btn-danger send-button" id="submit" onClick={handleChange}  type="submit" value="SEND">
-        <div className="alt-send-button">
-          <RiSendPlaneFill style={{fontSize: "1.5rem"}}/><span className="send-text">SEND</span>
-        </div>
+          <RiSendPlaneFill style={{fontSize: "1.5rem"}}/>
       
       </button>
       
@@ -115,12 +113,10 @@ const Contact = ()=>{
       <div className="direct-contact-container">
 
         <ul className="contact-list">
-          <li className="list-item"><ImLocation className="fa fa-2x" style={{fontSize: "1.5rem"}} data-aos='fade-down'/><span className="contact-text place" data-aos='fade-up'>Palamu, Jharkhand</span></li>
+          <li className="list-item"><ImLocation className="fa fa-2x" style={{fontSize: "1.5rem"}} data-aos='fade-down'/><span className="contact-text place" data-aos='fade-up'>Jharkhand</span></li>
           
           <li className="list-item"><ImPhone style={{fontSize: "1.5rem"}} data-aos='fade-down'  /><span className="contact-text phone"><a href="tel:9693480133" title="Give me a call" data-aos='fade-up'>+91 9693480133</a></span></li>
-          
-          <li className="list-item"><MdEmail style={{fontSize: "1.5rem"}} data-aos='fade-down' /><span className="contact-text gmail"><a href="mailto:akhilchoubeys@gmail.com" title="Send me an email" data-aos='fade-up'>akhilchoubeys@gmail.com</a></span></li>
-          
+                    
         </ul>
 
         <hr></hr>
