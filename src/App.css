@@ -93,7 +93,7 @@
 
 #header{
   width: 100%;
-  height: 80vh;
+  height: 37rem;
    /* margin-top: 70px;  */
 
 }
@@ -158,7 +158,7 @@
 
 @media (max-width:600px) {
   .home{
-    height: 35rem;
+    height: 30rem;
   }
   .titleHeader {
     margin-left: 0;
@@ -420,9 +420,7 @@ hr {
     height: 55px;
     line-height: 55px;
   }
-  .home{
-    min-height: 50rem;
-  } 
+  
 }
 
 @media screen and (max-width: 410px) {
