@@ -13,6 +13,7 @@ import { withRouter } from 'react-router';
 
 import AnimatedCursor from "react-animated-cursor";
 import Certificates from './components/Certificates';
+import Projects from './components/Projects';
 function App() {
 
   return (
@@ -34,7 +35,7 @@ function App() {
         <Switch>
             <Route path='/' exact component={withRouter(Home)} />
             <Route path='/certificates' component={withRouter(Certificates)} />
-            <Route path='/projects' component={withRouter(Home)} />
+            <Route path='/projects' component={withRouter(Projects)} />
             <Route path='/skills' component={withRouter(Skills)} />
             <Route path='/contact' component={withRouter(Contact)} />
         </Switch>
