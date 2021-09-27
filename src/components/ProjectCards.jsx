@@ -3,8 +3,8 @@ import './Project.css';
 import img from './profile.jpg';
 const ProjectCards = () => {
     return <>
-    <div className="col-md-4 col-10 mx-auto" >
-        <div className="container">
+        <div className="col-md-4 col-10 mx-auto" >
+        <div className="container1">
 	        <div className="box">
 		        <div className="imgBx">
 			        <img src={img} />
@@ -13,6 +13,7 @@ const ProjectCards = () => {
 	        </div>
         </div>
         </div>
+        
     </>
 }
 
