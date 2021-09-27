@@ -26,8 +26,8 @@ return <div >
     {/* <Navbar /> */}
 
     {/* <h1> {props.location.state.details.first_name}</h1> */}
-    <section id="header" className="home d-flex align-items-center" style={{paddingTop: '0',}} data-aos='zoom-in'  >
-    <div id="title" className="titleHeader col-md-6 pt-5 pt-lg-0 order-2 order-lg- d-flex justify-content-center flex-column" >
+    <section id="header" className="home d-flex align-items-center" style={{paddingTop: '0',}}   >
+    <div id="title" className="titleHeader col-md-6 pt-5 pt-lg-0 order-2 order-lg- d-flex justify-content-center flex-column" data-aos='zoom-in' >
               
 
                 <h1>
