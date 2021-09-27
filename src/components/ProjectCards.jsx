@@ -17,7 +17,7 @@ const ProjectCards = (props) => {
         <div>
 	        <div className="box">
 		        <div className="imgBx">
-			        <img src={props.image} /> 
+			        <img src={props.image} alt='Failed to load.' /> 
                     {/* <img src={props.image} /> */}
 		        </div>
 		        <div className="content"><a href={props.link} style={{textDecoration:'none'}}><h2>{props.title} <BsBoxArrowUpRight/> </h2> </a> </div>
