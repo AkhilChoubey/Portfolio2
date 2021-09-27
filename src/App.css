@@ -78,7 +78,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 32rem;
+  /* height: 32rem; */
   background: 
     radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
     radial-gradient(rgb(199, 242, 243) 2px, transparent 4px),
