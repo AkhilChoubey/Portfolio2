@@ -13,11 +13,11 @@ const Grades = (props) => {
 return <div style={{width: "95%", height:'11rem', background: 'white',display:'block'}}>
 {/* <Example label="Fully controlled text animation using react-move"> */}
       <AnimatedProgressProvider
-        valueStart={0}
+        valueStart={50}
         valueEnd={props.value}
-        duration={1.4}
+        duration={3}
         easingFunction={easeQuadInOut}
-        
+        repeat
       >
         {value => {
           const roundedValue = Math.round(value);
