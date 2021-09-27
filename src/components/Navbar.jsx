@@ -18,7 +18,6 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNavbarColor);
 
     return <>
-    {/* <Router history={createBrowserHistory()}> */}
      <div className="container-fluid nav_bg">
         <div className="row">
             <div className="col-10 " style={{width:"100%",padding: '0'}} >
@@ -41,7 +40,6 @@ const Navbar = () => {
                 
             </ul>
             </div>
-            {/* <span className="slide"></span> */}
             
             
             </div>

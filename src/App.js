@@ -18,11 +18,9 @@ function App() {
 
   return (
     <div>
-     {/* <Navbar /> */}
      <Router>
      <div>
-     {/* <AnimatedCursor />
-      */}
+    
       <AnimatedCursor
       innerSize={8}
       outerSize={8}

@@ -5,15 +5,12 @@ import 'aos/dist/aos.css';
 import swal from 'sweetalert';
 import {ImLocation} from "react-icons/im";
 import {ImPhone} from "react-icons/im";
-// import {MdEmail} from "react-icons/md";
 import {RiSendPlaneFill} from "react-icons/ri";
 import {FaLinkedin} from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai";
 import {AiFillFacebook} from "react-icons/ai";
 import {AiOutlineTwitter} from "react-icons/ai";
-// import conBg from './lapy2.jpg';
 import conBg from './connew.jpg';
-// import conBg from './connew2.jpg';
 import { withRouter } from 'react-router'; 
 
 
