@@ -13,7 +13,7 @@ const ProjectCards = (props) => {
 
 
     return <>
-        <div className="col-md-4 col-10 mx-auto" data-aos='zoom-in' >
+        <div className="col-md-4 col-10 mx-auto" data-aos='zoom-in'  style={{zIndex: '50'}}>
         <div>
 	        <div className="box">
 		        <div className="imgBx">

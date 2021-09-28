@@ -6,7 +6,7 @@
     transition: 0.5s;
 }
  .box:hover {
-    z-index: 1;
+
     transform: scale(1.25);
     box-shadow: 0 25px 40px rgba(0,0,0,.5);
 }
@@ -16,7 +16,7 @@
     left: 0;
     width: 100%;
     height:100%;
-    
+
 }
  .box .imgBx img {
     position: absolute;
@@ -67,4 +67,5 @@
  .box:hover .content  h2{
   transform: translateY(0);
   transition-delay: 0.1s;
+  z-index: 5;
 }

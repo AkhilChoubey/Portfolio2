@@ -24,7 +24,7 @@ const Navbar = () => {
 
            
         <nav className='navbar navbar-expand-lg navbar-light bg-light' style={{borderRadius: "0px", padding: '0'}}>
-        <div className="container-fluid" style={colorChange?{background: 'black',color: 'white',transition: '2s all ease'}:{background: 'snow',transition: '2s all ease'}}>
+        <div className="container-fluid" style={colorChange?{background: '#3e98c7',color: 'white',transition: '2s all ease'}:{background: 'snow',transition: '2s all ease'}}>
     
         
            <Link to='/' className='navbar-brand' style={colorChange?{color:'white',marginRight: '33%',fontSize: '2.5rem',transition: '2s all ease'}:{marginRight: '33%',fontSize: '2.5rem',fontWeight:'bolder'}}> PortFolio </Link>
