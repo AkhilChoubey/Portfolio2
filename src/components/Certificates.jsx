@@ -67,6 +67,11 @@ useEffect(() => {
           height: 3
         },
         {
+          src: responsiveWebDesign,
+          width: 5,
+          height: 3
+        },
+        {
           src: "https://udemy-certificate.s3.amazonaws.com/image/UC-8KXCZXSB.jpg",
           width: 5,
           height: 3
@@ -76,11 +81,7 @@ useEffect(() => {
           width: 5,
           height: 3
         },
-        {
-          src: responsiveWebDesign,
-          width: 5,
-          height: 3
-        },
+    
       ];
       
     return <>
