@@ -22,7 +22,7 @@ const Projects = () => {
         <ProjectCards key='5' title='playmusic' image={music} link='https://akhilchoubey.github.io/playMusic/' />
         <ProjectCards key='6' title='to-do-list' image={todolist} link='https://github.com/AkhilChoubey/To-Do-List' />
         <ProjectCards key='7' title='Indian TOURISM' image={tourism} link='https://akhilchoubey.github.io/India-Tourism/' />
-        <ProjectCards key='8' title='IMAGE RESIZER' image={imageResizer} link='https://akhilchoubey.github.io/imageResize/' />
+        <ProjectCards key='8' id='8' title='IMAGE RESIZER' image={imageResizer} link='https://akhilchoubey.github.io/imageResize/' />
          </div>
         </div>
         </div>
