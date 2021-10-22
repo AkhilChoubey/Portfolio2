@@ -8,7 +8,9 @@ import dreamclues from './images/DreamsClues.png';
 import BigData from './images/BigData.png';
 import GG from './images/GitandGithub.jpg';
 import Python from './images/Python.png';
+import responsiveWebDesign from './images/responsiveWebDesign.png';
 import AnimatedCursor from "react-animated-cursor";
+
 
 const Certificates = () => {
 
@@ -74,7 +76,11 @@ useEffect(() => {
           width: 5,
           height: 3
         },
-       
+        {
+          src: responsiveWebDesign,
+          width: 5,
+          height: 3
+        },
       ];
       
     return <>
