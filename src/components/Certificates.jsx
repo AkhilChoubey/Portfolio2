@@ -81,7 +81,32 @@ useEffect(() => {
           width: 5,
           height: 3
         },
-    
+        //
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-86e7d51e-1dd8-4900-bc52-e9fa133281a6.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-9032f6bf-7b35-4fdf-b1c4-29fd9e08635c.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-9add118f-2e28-4867-8a4a-9539b918df7f.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-49374902-3c56-44a3-bb78-c9fffe19d17f.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-abed53e0-13e1-41b8-8f2b-d9f3fab03644.jpg",
+          width: 5,
+          height: 3
+        },
       ];
       
     return <>
