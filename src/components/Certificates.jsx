@@ -107,6 +107,21 @@ useEffect(() => {
           width: 5,
           height: 3
         },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-b34d3dd2-79b8-49d9-95fa-d3d64c4b477a.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-30c92a3a-881d-4db6-b0a5-43da8f6e624d.jpg",
+          width: 5,
+          height: 3
+        },
+        {
+          src: "https://udemy-certificate.s3.amazonaws.com/image/UC-ff4257eb-c5f6-4f21-baad-89bf82e59fce.jpg",
+          width: 5,
+          height: 3
+        },
       ];
       
     return <>
