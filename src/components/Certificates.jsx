@@ -71,7 +71,7 @@ const Certificates = () => {
       height: 3,
     },
     {
-      src: { AlgorithmToolbox },
+      src: AlgorithmToolbox,
       width: 5,
       height: 3,
     },
