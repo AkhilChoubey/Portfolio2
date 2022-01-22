@@ -47,6 +47,12 @@ const Projects = () => {
                 link="https://akhilrecipeapp.netlify.app/"
               />
               <ProjectCards
+                key="9"
+                title="Speech to Text"
+                image="https://image.winudf.com/v2/image/Y29tLm1iMTQubWljX2ljb25fMF82ZDA5NjJmNg/icon.png?w=&fakeurl=1"
+                link="http://speech-to-text-convertor.netlify.app/"
+              />
+              <ProjectCards
                 key="4"
                 title="portfolio"
                 image={profile}
