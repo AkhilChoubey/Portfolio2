@@ -1,16 +1,13 @@
-import {
-    CircularProgressbar,
-  
-    buildStyles
-  } from "react-circular-progressbar";
-  import "react-circular-progressbar/dist/styles.css";
-  
-  // Animation
-  import { easeQuadInOut } from "d3-ease";
-  import AnimatedProgressProvider from "./AnimatedProgressProvider";
- 
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+import "./Grades.css";
+// Animation
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from "./AnimatedProgressProvider";
+
 const Grades = (props) => {
-return <div style={{width: "95%", height:'11rem', background: 'white',display:'block'}}>
+  return (
+    <div className="circular-grade">
       <AnimatedProgressProvider
         valueStart={50}
         valueEnd={props.value}
@@ -18,7 +15,7 @@ return <div style={{width: "95%", height:'11rem', background: 'white',display:'b
         easingFunction={easeQuadInOut}
         repeat
       >
-        {value => {
+        {(value) => {
           const roundedValue = Math.round(value);
           return (
             <CircularProgressbar
@@ -29,8 +26,8 @@ return <div style={{width: "95%", height:'11rem', background: 'white',display:'b
           );
         }}
       </AnimatedProgressProvider>
-   
-</div>
-}
+    </div>
+  );
+};
 
 export default Grades;

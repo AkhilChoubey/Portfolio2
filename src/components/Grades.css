@@ -1,0 +1,13 @@
+.circular-grade {
+  /* style={{width: "95%", height:'11rem', background: 'white',display:'block'}} */
+  width: 95%;
+  height: 11rem;
+  background: white;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .circular-grade {
+    width: 17rem;
+  }
+}
